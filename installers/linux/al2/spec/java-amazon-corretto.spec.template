@@ -306,8 +306,11 @@ make LOG=debug docs
 rm -rf %{buildroot}
 install -d -m 755 %{buildroot}%{java_home}
 cp -a %{java_imgdir}/jdk/* %{buildroot}%{java_home}
-cp -a %{java_imgdir}/symbols/* %{buildroot}/symbols
 rm -rf %{buildroot}%{java_home}/demo
+
+# Install debugsymbols
+mkdir -p %{buildroot}%{java_home}/symbols
+cp -a %{java_imgdir}/symbols/ %{buildroot}%{java_home}/symbols/
 
 # Properly set permissions for executables and libs to enable auto-provides scanning
 find %{buildroot}%{java_home}/ -name "*.so" -exec chmod 755 \\{\\} \\; ;
@@ -511,9 +514,9 @@ fi
 %license %{java_imgdir}/docs/legal
 
 %files debugsymbols
-%{buildroot}/symbols/bin/*.diz
-%{buildroot}/symbols/lib/*.diz
-%{buildroot}/symbols/lib/server/*.diz
+%{java_home}/symbols/bin/*.diz
+%{java_home}/symbols/lib/*.diz
+%{java_home}/symbols/lib/server/*.diz
 
 %changelog
 * Mon Aug 5 2024 Daniel Hu <costmuch@amazon.com>
