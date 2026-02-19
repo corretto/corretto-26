@@ -25,7 +25,7 @@ The following issues are addressed in 26.0.0.35.1:
 
 | Issue Name       | Platform | Description                                | Link                                                               |
 |------------------|----------|--------------------------------------------|--------------------------------------------------------------------|
-| Import jdk-26+34 | All      | Updates Corretto baseline to OpenJDK 26+35 | [jdk-26+35](https://github.com/openjdk/jdk/releases/tag/jdk-26+35) |
+| Import jdk-26+35 | All      | Updates Corretto baseline to OpenJDK 26+35 | [jdk-26+35](https://github.com/openjdk/jdk/releases/tag/jdk-26+35) |
 
 ## Corretto version: 26.0.0.34.1
 Release Date: February 5, 2026
