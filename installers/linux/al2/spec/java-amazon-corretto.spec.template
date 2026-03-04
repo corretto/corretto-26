@@ -310,6 +310,7 @@ make LOG=debug docs
 %install
 rm -rf %{buildroot}
 install -d -m 755 %{buildroot}%{java_home}
+rsync -a --exclude='*.debuginfo' %{java_imgdir}/jdk/ %{buildroot}%{java_home}/
 cp -a %{java_imgdir}/jdk/* %{buildroot}%{java_home}
 rm -rf %{buildroot}%{java_home}/demo
 
