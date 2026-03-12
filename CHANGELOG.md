@@ -2,8 +2,8 @@
 
 The following sections describe the changes for each release of Amazon Corretto 26.
 
-## Corretto version: 26.0.0.35.1
-Release Date: February 19, 2026
+## Corretto version: 26.0.0.35.2
+Release Date: March 17, 2026
 
 **Target Platforms <sup>1</sup>**
 
@@ -21,7 +21,7 @@ Release Date: February 19, 2026
 **1.** This is the platform targeted by the build. See [Using Amazon Corretto](https://aws.amazon.com/corretto/faqs/#Using_Amazon_Corretto)
 in the Amazon Corretto FAQ for supported platforms
 
-The following issues are addressed in 26.0.0.35.1:
+The following issues are addressed in 26.0.0.35.2:
 
 | Issue Name       | Platform | Description                                | Link                                                               |
 |------------------|----------|--------------------------------------------|--------------------------------------------------------------------|
