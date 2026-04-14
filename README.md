@@ -26,7 +26,6 @@ Corretto 26 nightly builds can be found on our [download page](https://downloads
 
 Production and nightly builds for all Corretto versions can be found at [downloads.corretto.aws/#/overview](https://downloads.corretto.aws/#/overview).
 
-
 ### OpenJDK Readme
 ```
 
