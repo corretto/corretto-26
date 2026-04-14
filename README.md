@@ -20,7 +20,12 @@ Please read these files: "LICENSE", "ADDITIONAL_LICENSE_INFO", "ASSEMBLY_EXCEPTI
 : The default branch. The branch that consumes development and patches to upstream [openjdk/jdk:jdk26](https://github.com/openjdk/jdk/tree/jdk26). Corretto builds are generated from this branch.
 
 ### Download Links
-Release builds can be found by version on the github [release page](https://github.com/corretto/corretto-26/releases). Nightly builds can be found on our [download page](https://downloads.corretto.aws/#/downloads?build=nightly&version=26).
+Corretto 26 release builds can be found on the github [release page](https://github.com/corretto/corretto-26/releases) and are also available at [downloads.corretto.aws](https://downloads.corretto.aws/#/downloads?build=production&version=26). 
+
+Corretto 26 nightly builds can be found on our [download page](https://downloads.corretto.aws/#/downloads?build=nightly&version=26).
+
+Production and nightly builds for all Corretto versions can be found at [downloads.corretto.aws/#/overview](https://downloads.corretto.aws/#/overview).
+
 
 ### OpenJDK Readme
 ```
