@@ -13,7 +13,7 @@ Release Date: April 21, 2026
 + Debian-based Linux using glibc 2.17 or later, aarch64
 + Alpine-based Linux, x86_64
 + Alpine-based Linux, aarch64
-+ Windows 10 or later, x86_64
++ Windows 11 or later, x86_64
 + macos 14.0 and later, x86_64
 + macos 14.0 and later, aarch64
 
