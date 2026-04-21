@@ -14,8 +14,8 @@ Release Date: April 21, 2026
 + Alpine-based Linux, x86_64
 + Alpine-based Linux, aarch64
 + Windows 11 or later, x86_64
-+ macos 14.0 and later, x86_64
-+ macos 14.0 and later, aarch64
++ macOS 14.0 and later, x86_64
++ macOS 14.0 and later, aarch64
 
 The following issues are addressed in 26.0.1.8.1
 
@@ -34,7 +34,6 @@ The following CVEs are addressed in 26.0.1.8.1
 | CVE-2026-22013 | 5.3 | security-libs/org.ietf.jgss |
 | CVE-2026-23865 | 5.3 | client-libs/2d |
 | CVE-2026-22008 | 3.7 | core-libs/java.lang |
-| CVE-2026-22020 | 7.1 | hotspot/compiler |
 | CVE-2026-22018 | 3.7 | core-libs/java.util |
 | CVE-2026-22007 | 2.9 | security-libs/java.security |
 | CVE-2026-34268 | 2.9 | security-libs/java.security |
@@ -51,8 +50,8 @@ Release Date: March 17, 2026
 + Alpine-based Linux, x86_64
 + Alpine-based Linux, aarch64
 + Windows 11 or later, x86_64
-+ macos 14.0 and later, x86_64
-+ macos 14.0 and later, aarch64
++ macOS 14.0 and later, x86_64
++ macOS 14.0 and later, aarch64
 
 
 **1.** This is the platform targeted by the build. See [Using Amazon Corretto](https://aws.amazon.com/corretto/faqs/#Using_Amazon_Corretto)
@@ -76,8 +75,8 @@ Release Date: February 5, 2026
 + Alpine-based Linux, x86_64
 + Alpine-based Linux, aarch64
 + Windows 11 or later, x86_64
-+ macos 14.0 and later, x86_64
-+ macos 14.0 and later, aarch64
++ macOS 14.0 and later, x86_64
++ macOS 14.0 and later, aarch64
 
 
 **1.** This is the platform targeted by the build. See [Using Amazon Corretto](https://aws.amazon.com/corretto/faqs/#Using_Amazon_Corretto)
