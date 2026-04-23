@@ -6,7 +6,7 @@ Corretto is used internally at Amazon for production services.
 With Corretto, you can develop and run Java applications
 on operating systems such as Linux, Windows, and macOS.
 
-This repository is used to track [OpenJDK 26](https://github.com/openjdk/tree/jdk26).
+This repository is used to track [OpenJDK 26u](https://github.com/openjdk/jdk26u).
 Please look at the branches section for more information on Feature Releases.
 
 Documentation is available at [https://docs.aws.amazon.com/corretto](https://docs.aws.amazon.com/corretto).
@@ -17,7 +17,7 @@ Please read these files: "LICENSE", "ADDITIONAL_LICENSE_INFO", "ASSEMBLY_EXCEPTI
 
 ### Branches
 
-: The default branch. The branch that consumes development and patches to upstream [openjdk/jdk:jdk26](https://github.com/openjdk/jdk/tree/jdk26). Corretto builds are generated from this branch.
+: The default branch. The branch that consumes development and patches to upstream [openjdk/jdk26u](https://github.com/openjdk/jdk26u). Corretto builds are generated from this branch.
 
 ### Download Links
 Corretto 26 release builds can be found on the github [release page](https://github.com/corretto/corretto-26/releases) and are also available at [downloads.corretto.aws](https://downloads.corretto.aws/#/downloads?build=production&version=26). 
