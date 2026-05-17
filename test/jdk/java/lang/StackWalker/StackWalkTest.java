@@ -59,6 +59,7 @@ public class StackWalkTest {
             "com.sun.javatest.regtest.MainWrapper$MainThread",
             "com.sun.javatest.regtest.agent.MainWrapper$MainThread",
             "com.sun.javatest.regtest.agent.MainWrapper$MainTask",
+            "com.sun.javatest.regtest.agent.MainMethodHelper",
             "java.lang.Thread"
     ));
     static final List<Class<?>> streamPipelines = Arrays.asList(
