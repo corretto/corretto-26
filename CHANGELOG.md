@@ -2,6 +2,45 @@
 
 The following sections describe the changes for each release of Amazon Corretto 26.
 
+## Corretto version: 26.0.2.10.1
+Release Date: July 21, 2026
+ 
+**Target Platforms**
+ 
++ RPM-based Linux using glibc 2.17 or later, x86_64
++ Debian-based Linux using glibc 2.17 or later, x86_64
++ RPM-based Linux using glibc 2.17 or later, aarch64
++ Debian-based Linux using glibc 2.17 or later, aarch64
++ Alpine-based Linux, x86_64
++ Alpine-based Linux, aarch64
++ Windows 11 or later, x86_64
++ macos 14.0 and later, x86_64
++ macos 14.0 and later, aarch64
+ 
+The following issues above are addressed in 26.0.2.10.1
+
+| Issue Name | Platform | Description | Link |
+|------------|----------|-------------|------|
+| Import jdk-26.0.2+10 | All | Updates Corretto baseline to OpenJDK 26.0.2+10 | [jdk-26.0.2+10](https://github.com/openjdk/jdk26u/releases/tag/jdk-26.0.2+10) |
+| JDK-8386085 | All | Livelock in AbstractQueuedSyncronizer.cleanQueue() when multiple threads do tryAcquire() with a short timeout and no permits available | [#29](https://github.com/corretto/corretto-26/pull/29) |
+| Recommend instead of Require dependencies for AL2023 headless | AL2023 | Improve dependencies for AL2023+ headless | [#21](https://github.com/corretto/corretto-26/pull/21) |
+
+
+
+The following CVEs are addressed in 26.0.2.10.1
+
+| CVE | CVSS | Component |
+|-----|------|-----------|
+| CVE-2026-41254 | 7.5 | client-libs/2d |
+| CVE-2026-47063 | 7.5 | security-libs/java.security |
+| CVE-2026-60147 | 6.5 | security-libs/java.security |
+| CVE-2026-46968 | 5.9 | security-libs/javax.net.ssl |
+| CVE-2026-47027 | 5.3 | security-libs/java.security |
+| CVE-2026-47021 | 5.3 | client-libs/2d |
+| CVE-2026-46917 | 5.3 | security-libs/javax.net.ssl |
+| CVE-2026-47059 | 3.7 | client-libs/2d |
+| CVE-2026-47010 | 3.7 | client-libs/javax.imageio |
+
 ## Corretto version: 26.0.1.8.1
 Release Date: April 21, 2026
 
